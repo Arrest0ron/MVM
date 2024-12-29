@@ -7,7 +7,15 @@
 #include <iomanip>
 #include <ctime>
 
-#define __FLT_EPSILON__ 1.19209289550781250000000000000000000e-7F
+#ifndef OUTPUT_PRECISION
+    #define OUTPUT_PRECISION 0.0001f
+#endif // OUTPUT_PRECISION
+
+
+#ifndef __FLT_EPSILON__
+    #define __FLT_EPSILON__ 1.19209289550781250000000000000000000e-7F
+#endif // __FLT_EPSILON__
+
 
 
 namespace VM

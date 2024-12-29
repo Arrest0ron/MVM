@@ -1,6 +1,5 @@
 #include "vmath.hpp"
 
-#define OUTPUT_PRECISION 0.0001f
 namespace VM
 {
 
